@@ -1,0 +1,463 @@
+/*font-family: 'Work Sans', sans-serif;*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Work Sans', sans-serif;
+	color:#314584;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+	display: table;
+}
+
+
+
+
+/* Header section starts*/
+header{
+	border:0px solid red;
+	position: relative;
+	padding:25px 0;
+}
+.logo{
+	width:5%;
+	border:0px solid red;
+	position: absolute;
+	left:115px;
+	top:25px;
+}
+.logo img{
+	width:100%;
+}
+.container{
+	width:60%;
+	border:0px solid red;
+	margin:0 auto;
+}
+.menu{
+	width:60%;
+	border:0px solid red;
+	float:left;
+}
+.menu ul{
+	float:left;
+	    padding: 0;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li:first-child a{
+	margin-left: 0;
+	padding-left: 0;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 5px;
+    margin: 0 15px;
+    font-size:18px;
+    font-weight: 600;
+}
+.menu ul li a:hover{
+	color:#ff3946;
+}
+.extra-c{
+	width:30%;
+	border:0px solid red;
+	float:right;
+	margin-top: 3px;
+}
+.extra-c form{
+	float: left;
+}
+.extra-c select{
+	margin-top: 12px;
+	border:none;
+	margin-left:40px;
+	font-size: 18px;
+    font-weight: 600;
+}
+.extra-c select:focus{
+    outline: none;
+}
+
+.extra-c a{
+	font-size:18px;
+	font-weight: 700px;
+	float: left;
+	display: block;
+	padding:12px;
+	margin-left: 22px;
+	text-decoration: none;
+	background: white;
+	font-weight: 600;
+	color:#ff3946;
+	text-align: center;
+	box-shadow: 2px 2px 7px 0px black;
+}
+.extra-c i{
+	margin-left: 12px;
+}
+
+/* Header section Ends*/
+
+
+/*Banner Starts*/
+.banner{
+	padding:90px 0;
+}
+.b-content{
+	width:45%;
+	border:0px solid red;
+}
+.c-title{
+	font-size: 57px;
+    font-weight: 600;
+}
+.c-description{
+	font-size: 18px;
+    font-weight: 400;
+}
+.c-btn{
+	width: 180px;
+    padding: 10px;
+    background: #ff4359;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor:pointer;
+}
+.b-content a{
+	text-decoration: none;
+	color:#314584;
+}
+
+.b-image{
+	width: 45%;
+	border:0px solid black;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index: -1;
+
+}
+.b-image img{
+	width: 100%;
+}
+
+
+/*Banner Starts*/
+
+
+
+/*Service Section Start*/
+.service{
+	padding: 200px 0 100px 0 ;
+	position: relative;
+
+}
+.s-content{
+
+}
+.item{
+	width:32%;
+	border:0px solid black;
+	float:left;
+}
+.item h3{
+	margin:35px 0;
+}
+.size-remove{
+	font-size:38px;
+}
+.item1{}
+.item2{
+	width: 250px;
+	height: 320px;
+	margin-left: 40px;
+	padding: 10px;
+	box-shadow:0px 0px 5px black;
+
+}
+.item3{
+	width: 250px;
+	height: 320px;
+	margin-left: 32px;
+	padding: 10px;
+	box-shadow:0px 0px 5px black;
+}
+.s-bg{
+	position: absolute;
+	left:0;
+	top: 0;
+	z-index: -1;
+}
+
+/*Service Section end*/
+
+
+
+
+
+/* About Section Starts*/
+.about{
+	border:0px solid red;
+	padding:100px 0;
+	position: relative;
+}
+
+.about-img{
+	width:50%;
+	border:0px solid red;
+	position:absolute;
+	left: 210px;
+    top: 107px;
+
+}
+.about-img img{
+	width: 64%;
+}
+.about-content{
+	width:45%;
+	border:0px solid red;
+	float:right;
+}
+.c-short-tag{
+	font-size:;
+	font-weight: 600;
+	color:#ff3946;
+	margin: 0;
+}
+.arrow-para{
+	margin:50px 0 0;
+}
+.fa-long-arrow-alt-right:before {
+    content: "\f30b";
+    margin-left: 23px;
+
+}
+.a-bg{
+	position: absolute;
+	right:0;
+	top: 0;
+	z-index: -1;
+}
+
+/* About Section End*/
+
+
+
+/*Work section starts*/
+.work{
+	border:0px solid red;
+	padding:50px 0;
+	position: relative;
+}
+.work-header{}
+.work-header h2{
+	display: inline;
+	font-size: 38px;
+    font-weight: 600;
+}
+.right{
+	float:right;
+	margin:0;
+	margin-top: 19px;
+}
+.work-content{
+	margin-top:80px;
+	border:0px solid red;
+}
+.w-item{
+	width:30%;
+	min-height: 250px;
+	background: #c9cbdc;
+	border:0px solid black;
+	float: left;
+}
+
+.w-item2,
+.w-item3,
+.w-item5,
+.w-item6{
+	margin-left:50px;
+}
+.w-item4,
+.w-item5,
+.w-item6{
+	margin-top:50px;
+}
+.bottom-link{
+	display:block;
+    margin: 50px auto;
+    border: 0px solid red;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-weight: 600;
+    color: #ff3946;
+    margin-bottom: 0;
+}
+
+.w-bg{
+	position: absolute;
+	left:0;
+	top: 0;
+	z-index: -1;
+}
+/*Work section starts*/
+
+
+/*News Section start*/
+.news{
+	padding:50px 0;
+	position: relative;
+}
+.n-content{
+	padding-top:50px;
+}
+.n-item{
+    width: 27%;
+    min-height: 250px;
+	border:0px solid red;
+	padding:20px;
+	float:left;
+	box-shadow: 0 0 4px 0px black;
+}
+.n-item p:nth-child(2){
+	font-size:14px;
+}
+
+
+.n-arrow-link{
+	border:0px solid red;
+	float:right;
+}
+.n-item2, .n-item3{
+    margin-left: 3.26%;
+}
+
+.n-bg{
+	position: absolute;
+	right:0;
+	top: 119px;
+	z-index: -1;
+}
+/*News Section end*/
+
+
+/*Contact Section start*/
+
+.contact{
+	padding:50px 0;
+}
+.contact-content{}
+form{
+	border:0px solid red;
+}
+.c-input{
+    width: 47.8%;
+	height: 60px;
+	background: #f4fafe;
+	border:none;
+}
+.c-input:focus{
+	outline:none;
+}
+form input[type="text"]{
+	margin-left:30px;
+}
+form textarea{
+	width: 99.4%;
+	min-height: 120px;
+	display: block;
+	margin-top:20px;
+	background: #f4fafe;
+	border:none;
+}
+form textarea:focus{
+	outline:none;
+}
+input::placeholder{
+	font-family: 'Work Sans', sans-serif;
+    font-size:14px;
+    font-weight: 600;
+     color: #314584;
+}
+textarea::placeholder{
+	font-family: 'Work Sans', sans-serif;
+    font-size:14px;
+    font-weight: 600;
+     color: #314584;
+ }
+
+.f-btn{
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+/*Contact Section end*/
+
+
+
+
+
+/*Footer Section Starts*/
+
+.footer{
+	background:#314584 ;
+	color:#fff;
+	text-align: center;
+	padding:50px 0;
+	
+
+}
+.footer-logo p{
+	padding:0;
+	margin:0;
+}
+.footer-header{
+	font-size: 26px;
+	font-weight: 600;
+	color: #ff4359;
+}
+.footer-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+ .footer-menu ul li:first-child a{
+	margin-left: 0;
+	padding-left: 0;
+}
+ .footer-menu ul li a{
+	text-decoration: none;
+	padding: 5px;
+    margin: 0 15px;
+    font-size:18px;
+    font-weight: 600;
+    color:#fff;
+}
+ .footer-menu ul li a:hover{
+	color:#ff3946;
+}
+.copy-text{
+	margin:30px 0;
+}
+.footer-link{}
+.footer-link a{
+	padding: 15px;
+	font-size:20px;
+	color:#fff;
+}
+
+
+
+
+
+
+/*Footer Section ends*/
